@@ -1,0 +1,70 @@
+.main {
+  width: 100% !important;
+  height: 100vh;
+  font-family:'Times New Roman', Times, serif;
+}
+  .main_site {
+    margin: auto;
+    padding: 50px 50px;
+    width: 1000px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 5px; }
+    .main_site h1 {
+      margin: 0px auto;
+      text-align: center; }
+    .main_site .info {
+      width: 100%;
+      margin: 5px auto;
+      border: none;
+      border: 1px solid #616161;
+      border-radius: 5px;
+      padding: 5px; }
+    .main_site .info:focus-visible {
+      outline: none; }
+    .main_site .input-group {
+      margin: 5px 0px; }
+      .main_site .input-group textarea {
+        width: 100%;
+        padding: 10px; }
+    .main_site .delay {
+      margin: 6px 0px; }
+    .main_site .action {
+      width: 100%; }
+      .main_site .action_c {
+        margin: auto;
+        width: 410px; }
+        .main_site .action_c button {
+          width: 200px; }
+    .main_site .notethread textarea {
+      width: 100%;
+      border: none; }
+    .main_site .notethread textarea:focus-visible {
+      outline: none; }
+
+/*# sourceMappingURL=style.css.map */
+
+.save{
+  text-align: center;
+  border-radius: 0 !important;
+  min-width: 300px;
+  margin: 15px auto;
+  margin: 0 auto;
+}
+.save:hover{
+  background-color: aqua;
+}
+.remove{
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  color: red;
+}
+#testThuTinNhan{
+  margin: 10px auto !important;
+}
+body{
+  
+  background-image: url("https://i.pinimg.com/originals/c3/5e/3c/c35e3c1baa7be93127b11f5e2de8ba8f.jpg");
+  background-size: auto;
+}
